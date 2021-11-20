@@ -22,13 +22,13 @@ namespace Exercises
             Console.WriteLine("Write something");
             string input = Console.ReadLine();
             Console.Clear();
-            for (int i = 0; i < input.Length; i++)
+            for (int i = 1; i < input.Length; i++)
             {
                 string newStr = input.Remove(input.Length - (input.Length-i));
                 Console.WriteLine(newStr);
             }
             Console.WriteLine(input);
-            for (int i = 0; i < input.Length; i++)
+            for (int i = 1; i < input.Length; i++)
             {
                 string newStr = input.Remove(input.Length - (i + 1));
                 Console.WriteLine(newStr);
