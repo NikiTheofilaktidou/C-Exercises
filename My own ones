@@ -34,10 +34,6 @@ namespace Exercises
                 Console.WriteLine(newStr);
             }
         }
-        public static string remove_char(string str)
-        {
-            return str.Remove(str.Length - 1);
-        }
     }
     
 }
