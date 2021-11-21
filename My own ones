@@ -28,7 +28,7 @@ namespace Exercises
                 Console.WriteLine(newStr);
             }
             Console.WriteLine(input);
-            for (int i = 1; i < input.Length; i++)
+            for (int i = 0; i < input.Length; i++)
             {
                 string newStr = input.Remove(input.Length - (i + 1));
                 Console.WriteLine(newStr);
